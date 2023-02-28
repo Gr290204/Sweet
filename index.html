@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Сладкоежка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+        <img src="icons/Vector.png" alt="Тортик">
+        <h3 class = "headtitle">Сладкоежка</h3>
+        </div>
+        <div class = "links">
+            <a>КАТАЛОГ</a>
+            <a>АКЦИИ</a>
+            <a>О НАС</a>
+            <a class="open-button" onclick="openForm()">ВОЙТИ</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Вход</h1>
+          
+              
+              <input type="text" placeholder="Введите почту..." name="email" required>
+          
+              
+              <input type="password" placeholder="Введите пароль..." name="psw" required>
+          
+              <button type="submit" class="btn">Отправить</button>
+              <button type="submit" class="cancel" onclick="closeForm()">×</button>
+            </form>
+          </div>
+
+        <div class = "firstscreen"> 
+            <h1 class = "firstscreen__title">Дарим сладость<br> к каждому<br> празднику</h1>
+            <p>Доставим прямо до двери!</p>
+            <button>Заказать</button>
+            <img  src="img/incendiary-fantastically-beautiful-girl-coat-eco-fur-moves-fun-picture-lovely-lady-pink-clothes-removebg-preview 1.png" alt="cakes">
+        </div>
+
+        <div class = "socnet">
+            <img src="icons/Rectangle 36.png" alt="">
+            <img src="icons/Rectangle 43.png" alt="">
+            <img src="icons/Rectangle 38.png" alt="">
+            <img src="icons/Rectangle 44.png" alt="">
+            <img src="icons/Rectangle 41.png" alt="">
+            <img src="icons/Rectangle 45.png" alt="">
+        </div>
+
+        <div  class = "choice">
+            <h2>Наш выбор</h2>
+            <div>
+                <img src="img/Rectangle 20.png" alt="Торты">
+                <span>Торты</span>
+                <span>Выбрать</span>
+                <img src="icons/Arrow 1.png" alt="Arrow">
+            </div>
+
+            <div>
+                <img src="img/Rectangle 21.png" alt="Пирожные">
+                <span>Пирожные</span>
+                <span>Выбрать</span>
+                <img src="icons/Arrow 1.png" alt="Arrow">
+            </div>
+
+            <div>
+                <img src="img/Rectangle 22.png" alt="Конфеты">
+                <span>Конфеты ручной работы</span>
+                <span>Выбрать</span>
+                <img src="icons/Arrow 1.png" alt="Arrow">
+            </div>
+
+            <div>
+                <img src="img/Group 92.png" alt="+">
+                <span>Добавить</span>
+            </div>
+
+        </div>
+
+        <div class = "sales">
+            <img src="img/Rectangle 88.png" alt="">
+            <h1 class="sales__h">Успей на<br>Скидки</h1>
+            <span>Получи скидку 30% и бесплатную <br> доставку при заказе от 5000 рублей</span>
+            <span> 20 февраля - 10 марта </span>
+            <span> *Сроки проведения акции </span>
+            <button> Заказать</button>
+        </div>
+
+        <div class = "promo">
+            <h3>Присоединяйтесь к нам и получите<br>промокод на первый заказ</h3>
+            <input type="text">
+            <button>Отправить</button>
+        </div>
+
+    </main>
+
+
+
+    <footer>
+        <div>Сладкоежка</div>
+        <div>Заказывайте лучшие <br>сладости у нас.</div>
+        <img src="icons/Group 10.png" alt="facebook">
+        <img src="icons/Group 11.png" alt="inst">
+        <img src="icons/Group 12.png" alt="twitter">
+        <img src="icons/Group 13.png" alt="linkedin">
+        <div>Company <br>About <br>Contact us <br>Support<br>Careers</div>
+        <div>Quick <br>LinkShare <br>LocationOrders <br>Tracking<br>FAQs</div>
+        <div>LegalTerms & conditions<br>Privacy <br>Policy</div>
+    </footer>
+    <script src="scrypt.js"> </script>
+</body>
+
+</html>

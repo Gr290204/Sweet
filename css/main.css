@@ -1,0 +1,145 @@
+header{
+    display: flex;
+
+}
+.logo{
+  width: 346px;
+  height: 60px;
+  left: 106px;
+  top: 29px;
+}
+.links {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    
+    color: #242323; 
+}
+.headtitle{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    /* identical to box height */
+
+    letter-spacing: 0.03em;
+
+    color: #000000;
+
+    width: 269px;
+  height: 60px;
+  left: 183px;
+  top: 10px;
+}
+.firstscreen {
+}
+.firstscreen__title {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 165%;
+    /* or 158px */
+
+    letter-spacing: -0.05em;
+
+    color: #000000;
+}
+.socnet {
+}
+.choice {
+}
+.sales {
+}
+.sales__h {
+}
+.promo {
+}
+button{
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    
+}
+
+
+
+
+
+/* Всплывающая форма-скрыта по умолчанию */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 40%;
+  right: 45%;
+  z-index: 9;
+}
+
+.form-container h1{
+    margin: 0 0 5% 40%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+}
+
+/* Добавить стили для контейнера формы */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: #6BDCEB;
+  border-radius: 3%;
+}
+
+/* Поля ввода полной ширины */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 90%;
+  padding: 15px;
+  margin: 0px 10px 10px 0px;
+  border: none;
+  border-radius: 3px;
+  background: #ffffff;
+}
+
+/* Когда входы получают фокус, сделайте что-нибудь */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Установите стиль для кнопки отправить/войти */
+.form-container .btn {
+    
+  background-color: #23BB20;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Добавить красный цвет фона для кнопки "Отмена" */
+.cancel {
+    position:absolute;
+    right: 9%;
+    bottom: 77%;
+    font-size: 250%;
+    border: none;
+    background-color: #6BDCEB;
+    color: #ff0000;
+
+}
+
+/* Добавить некоторые эффекты наведения на кнопки */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
